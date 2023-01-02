@@ -156,8 +156,11 @@
 
 /*   animation */
 @keyframes animation1{
-
-    50% {
+    0%{
+        transform:translateY(0px);
+       
+    }
+    80% {
         transform: translateY(-50px);
         transition: transform;
     }
@@ -165,6 +168,17 @@
        transform:translateY(0px);
        transition:transform ;
    }
+}
+@keyframes ani2{
+    0%{
+        width:0%;
+    }
+    50%{
+        width:100%;
+    }
+    100%{
+        width:0%;
+    }
 }
 
 .aniname:hover {
@@ -244,13 +258,54 @@
     color: white;
     width: 90%;
     text-align: right;
+    animation:ani_html 3s ease-in-out  forwards;
+    animation-delay:0.25s;
+    border-radius:10px;
 }
+@keyframes ani_html{
+    0%{
+        width:0%;
 
+    }
+    
+    100%{
+        width:90%;
+    }
+}
+@keyframes ani_css{
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+@keyframes ani_js {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+@keyframes ani_py {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
 .css {
     background-color: rgb(92, 84, 240);
     color: white;
     width: 75%;
     text-align: right;
+    border-radius: 10px;
+    animation: ani_css 3s ease-in-out forwards;
 }
 
 .js {
@@ -258,6 +313,8 @@
     color: white;
     width: 50%;
     text-align: right;
+    border-radius: 10px;
+    animation: ani_js 3s ease-in-out forwards;
 }
 
 .py {
@@ -265,6 +322,8 @@
     color: white;
     width: 50%;
     text-align: right;
+    border-radius: 10px;
+    animation: ani_py 3s ease-in-out forwards;
 }
 
 .service_container {
