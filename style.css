@@ -306,6 +306,7 @@
     text-align: right;
     border-radius: 10px;
     animation: ani_css 3s ease-in-out forwards;
+    animation-delay: 0.25s;
 }
 
 .js {
@@ -315,6 +316,7 @@
     text-align: right;
     border-radius: 10px;
     animation: ani_js 3s ease-in-out forwards;
+    animation-delay: 0.25s;
 }
 
 .py {
@@ -324,6 +326,7 @@
     text-align: right;
     border-radius: 10px;
     animation: ani_py 3s ease-in-out forwards;
+    animation-delay: 0.25s;
 }
 
 .service_container {
