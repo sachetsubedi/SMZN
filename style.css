@@ -341,7 +341,7 @@
     border-radius: 10px;
     animation: ani_py 3s ease-in-out forwards;
     animation-delay: 0.25s;
-    animation-iteration-count: 2;
+    
 }
 
 .service_container {
