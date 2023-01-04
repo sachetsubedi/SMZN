@@ -16,9 +16,10 @@
     background-color: rgb(47, 17, 82);
     color: white;
 }
-.learn button{
-    color:white;
-    cursor:pointer;
+
+.learn button {
+    color: white;
+    cursor: pointer;
 }
 
 .learnmore_bt {
@@ -31,14 +32,12 @@
     width: fit-content;
     font-family: monospace;
     background-color: transparent;
-    animation:border_ani 5s ease-in-out infinite ;
-    
-    
+    animation: border_ani 5s ease-in-out infinite;
 }
 
     .learnmore_bt a {
         text-decoration: none;
-        color:white;
+        color: white;
     }
 
     .learnmore_bt:hover {
@@ -47,242 +46,244 @@
         border: 3px solid rgb(116, 74, 232);
         color: white;
         transform: translateX(10px);
-        animation:none;
+        animation: none;
     }
-    @keyframes border_ani{
-        0% {
-            border: 3px solid rgb( 45, 235, 35);
-        }
 
-        1% {
-            border: 3px solid rgb( 32, 230, 45);
-        }
-
-        2% {
-            border: 3px solid rgb( 32, 230, 62);
-        }
-
-        4% {
-            border: 3px solid rgb( 32, 230, 78);
-        }
-
-        6% {
-            border: 3px solid rgb( 32, 230, 95);
-        }
-
-        8% {
-            border: 3px solid rgb( 32, 230, 95);
-        }
-
-        9% {
-            border: 3px solid rgb( 32, 230, 141);
-        }
-
-        10% {
-            border: 3px solid rgb( 32, 230, 157);
-        }
-
-        12% {
-            border: 3px solid rgb( 32, 230, 171);
-        }
-
-        14% {
-            border: 3px solid rgb( 32, 230, 187);
-        }
-
-        16% {
-            border: 3px solid rgb( 32, 230, 200);
-        }
-
-        18% {
-            border: 3px solid rgb( 32, 230, 223);
-        }
-
-        20% {
-            border: 3px solid rgb( 32, 217, 230);
-        }
-
-        21% {
-            border: 3px solid rgb( 32, 197, 230);
-        }
-
-        23% {
-            border: 3px solid rgb( 32, 174, 230);
-        }
-
-        25% {
-            border: 3px solid rgb( 32, 161, 230);
-        }
-
-        27% {
-            border: 3px solid rgb( 32, 144, 230);
-        }
-
-        29% {
-            border: 3px solid rgb( 32, 128, 230);
-        }
-
-        30% {
-            border: 3px solid rgb( 32, 111, 230);
-        }
-
-        32% {
-            border: 3px solid rgb( 32, 101, 230);
-        }
-
-        34% {
-            border: 3px solid rgb( 32, 88, 230);
-        }
-
-        36% {
-            border: 3px solid rgb( 32, 65, 230);
-        }
-
-        38% {
-            border: 3px solid rgb( 32, 32, 230);
-        }
-
-        39% {
-            border: 3px solid rgb( 45, 32, 230);
-        }
-
-        40% {
-            border: 3px solid rgb( 88, 32, 230);
-        }
-
-        42% {
-            border: 3px solid rgb( 105, 32, 230);
-        }
-
-        44% {
-            border: 3px solid rgb( 131, 32, 230);
-        }
-
-        46% {
-            border: 3px solid rgb( 131, 32, 230);
-        }
-
-        48% {
-            border: 3px solid rgb( 141, 32, 230);
-        }
-
-        50% {
-            border: 3px solid rgb( 141, 32, 230);
-        }
-
-        52% {
-            border: 3px solid rgb( 131, 32, 230);
-        }
-
-        54% {
-            border: 3px solid rgb( 131, 32, 230);
-        }
-
-        56% {
-            border: 3px solid rgb( 105, 32, 230);
-        }
-
-        58% {
-            border: 3px solid rgb( 88, 32, 230);
-        }
-
-        60% {
-            border: 3px solid rgb( 45, 32, 230);
-        }
-
-        70% {
-            border: 3px solid rgb( 32, 32, 230);
-        }
-
-        72% {
-            border: 3px solid rgb( 32, 65, 230);
-        }
-
-        73% {
-            border: 3px solid rgb( 32, 88, 230);
-        }
-
-        74% {
-            border: 3px solid rgb( 32, 101, 230);
-        }
-
-        76% {
-            border: 3px solid rgb( 32, 111, 230);
-        }
-
-        80% {
-            border: 3px solid rgb( 32, 128, 230);
-        }
-
-        81% {
-            border: 3px solid rgb( 32, 144, 230);
-        }
-
-        84% {
-            border: 3px solid rgb( 32, 161, 230);
-        }
-
-        85% {
-            border: 3px solid rgb( 32, 174, 230);
-        }
-
-        86% {
-            border: 3px solid rgb( 32, 197, 230);
-        }
-
-        87% {
-            border: 3px solid rgb( 32, 217, 230);
-        }
-
-        88% {
-            border: 3px solid rgb( 32, 230, 223);
-        }
-
-        89% {
-            border: 3px solid rgb( 32, 230, 200);
-        }
-
-        92% {
-            border: 3px solid rgb( 32, 230, 187);
-        }
-
-        94% {
-            border: 3px solid rgb( 32, 230, 171);
-        }
-
-        90% {
-            border: 3px solid rgb( 32, 230, 157);
-        }
-
-        92% {
-            border: 3px solid rgb( 32, 230, 141);
-        }
-
-
-        93% {
-            border: 3px solid rgb( 32, 230, 95);
-        }
-
-        94% {
-            border: 3px solid rgb( 32, 230, 95);
-        }
-
-        96% {
-            border: 3px solid rgb( 32, 230, 78);
-        }
-
-        97% {
-            border: 3px solid rgb( 32, 230, 62);
-        }
-
-        99% {
-            border: 3px solid rgb( 32, 230, 45);
-        }
-
-        100% {
-            border: 3px solid rgb( 45, 235, 35);
-        }
+@keyframes border_ani {
+    0% {
+        border: 3px solid rgb( 45, 235, 35);
     }
+
+    1% {
+        border: 3px solid rgb( 32, 230, 45);
+    }
+
+    2% {
+        border: 3px solid rgb( 32, 230, 62);
+    }
+
+    4% {
+        border: 3px solid rgb( 32, 230, 78);
+    }
+
+    6% {
+        border: 3px solid rgb( 32, 230, 95);
+    }
+
+    8% {
+        border: 3px solid rgb( 32, 230, 95);
+    }
+
+    9% {
+        border: 3px solid rgb( 32, 230, 141);
+    }
+
+    10% {
+        border: 3px solid rgb( 32, 230, 157);
+    }
+
+    12% {
+        border: 3px solid rgb( 32, 230, 171);
+    }
+
+    14% {
+        border: 3px solid rgb( 32, 230, 187);
+    }
+
+    16% {
+        border: 3px solid rgb( 32, 230, 200);
+    }
+
+    18% {
+        border: 3px solid rgb( 32, 230, 223);
+    }
+
+    20% {
+        border: 3px solid rgb( 32, 217, 230);
+    }
+
+    21% {
+        border: 3px solid rgb( 32, 197, 230);
+    }
+
+    23% {
+        border: 3px solid rgb( 32, 174, 230);
+    }
+
+    25% {
+        border: 3px solid rgb( 32, 161, 230);
+    }
+
+    27% {
+        border: 3px solid rgb( 32, 144, 230);
+    }
+
+    29% {
+        border: 3px solid rgb( 32, 128, 230);
+    }
+
+    30% {
+        border: 3px solid rgb( 32, 111, 230);
+    }
+
+    32% {
+        border: 3px solid rgb( 32, 101, 230);
+    }
+
+    34% {
+        border: 3px solid rgb( 32, 88, 230);
+    }
+
+    36% {
+        border: 3px solid rgb( 32, 65, 230);
+    }
+
+    38% {
+        border: 3px solid rgb( 32, 32, 230);
+    }
+
+    39% {
+        border: 3px solid rgb( 45, 32, 230);
+    }
+
+    40% {
+        border: 3px solid rgb( 88, 32, 230);
+    }
+
+    42% {
+        border: 3px solid rgb( 105, 32, 230);
+    }
+
+    44% {
+        border: 3px solid rgb( 131, 32, 230);
+    }
+
+    46% {
+        border: 3px solid rgb( 131, 32, 230);
+    }
+
+    48% {
+        border: 3px solid rgb( 141, 32, 230);
+    }
+
+    50% {
+        border: 3px solid rgb( 141, 32, 230);
+    }
+
+    52% {
+        border: 3px solid rgb( 131, 32, 230);
+    }
+
+    54% {
+        border: 3px solid rgb( 131, 32, 230);
+    }
+
+    56% {
+        border: 3px solid rgb( 105, 32, 230);
+    }
+
+    58% {
+        border: 3px solid rgb( 88, 32, 230);
+    }
+
+    60% {
+        border: 3px solid rgb( 45, 32, 230);
+    }
+
+    70% {
+        border: 3px solid rgb( 32, 32, 230);
+    }
+
+    72% {
+        border: 3px solid rgb( 32, 65, 230);
+    }
+
+    73% {
+        border: 3px solid rgb( 32, 88, 230);
+    }
+
+    74% {
+        border: 3px solid rgb( 32, 101, 230);
+    }
+
+    76% {
+        border: 3px solid rgb( 32, 111, 230);
+    }
+
+    80% {
+        border: 3px solid rgb( 32, 128, 230);
+    }
+
+    81% {
+        border: 3px solid rgb( 32, 144, 230);
+    }
+
+    84% {
+        border: 3px solid rgb( 32, 161, 230);
+    }
+
+    85% {
+        border: 3px solid rgb( 32, 174, 230);
+    }
+
+    86% {
+        border: 3px solid rgb( 32, 197, 230);
+    }
+
+    87% {
+        border: 3px solid rgb( 32, 217, 230);
+    }
+
+    88% {
+        border: 3px solid rgb( 32, 230, 223);
+    }
+
+    89% {
+        border: 3px solid rgb( 32, 230, 200);
+    }
+
+    92% {
+        border: 3px solid rgb( 32, 230, 187);
+    }
+
+    94% {
+        border: 3px solid rgb( 32, 230, 171);
+    }
+
+    90% {
+        border: 3px solid rgb( 32, 230, 157);
+    }
+
+    92% {
+        border: 3px solid rgb( 32, 230, 141);
+    }
+
+
+    93% {
+        border: 3px solid rgb( 32, 230, 95);
+    }
+
+    94% {
+        border: 3px solid rgb( 32, 230, 95);
+    }
+
+    96% {
+        border: 3px solid rgb( 32, 230, 78);
+    }
+
+    97% {
+        border: 3px solid rgb( 32, 230, 62);
+    }
+
+    99% {
+        border: 3px solid rgb( 32, 230, 45);
+    }
+
+    100% {
+        border: 3px solid rgb( 45, 235, 35);
+    }
+}
+
 @keyframes color_ani {
     0% {
         color: rgb( 45, 235, 35);
@@ -573,6 +574,7 @@
     animation: animation1 1s infinite;
     animation-iteration-count: 2;
 }
+
 .aniname2 {
     position: relative;
     animation: animation1 1s infinite;
@@ -586,54 +588,63 @@
     animation-delay: 0.2s;
     animation-iteration-count: 2;
 }
+
 .aniname4 {
     position: relative;
     animation: animation1 1s infinite;
     animation-delay: 0.3s;
     animation-iteration-count: 2;
 }
+
 .aniname5 {
     position: relative;
     animation: animation1 1s infinite;
     animation-delay: 0.4s;
     animation-iteration-count: 2;
 }
+
 .aniname6 {
     position: relative;
     animation: animation1 1s infinite;
     animation-delay: 0.5s;
     animation-iteration-count: 2;
 }
+
 .aniname7 {
     position: relative;
     animation: animation1 1s infinite;
     animation-delay: 0.6s;
     animation-iteration-count: 2;
 }
+
 .aniname8 {
     position: relative;
     animation: animation1 1s infinite;
     animation-delay: 0.7s;
     animation-iteration-count: 2;
 }
+
 .aniname9 {
     position: relative;
     animation: animation1 1s infinite;
     animation-delay: 0.8s;
     animation-iteration-count: 2;
 }
+
 .aniname10 {
     position: relative;
     animation: animation1 1s infinite;
     animation-delay: 0.9s;
     animation-iteration-count: 2;
 }
+
 .aniname11 {
     position: relative;
     animation: animation1 1s infinite;
     animation-delay: 1s;
     animation-iteration-count: 2;
 }
+
 .aniname12 {
     position: relative;
     animation: animation1 1s infinite;
@@ -642,29 +653,33 @@
 }
 
 /*   animation */
-@keyframes animation1{
-    0%{
-        transform:translateY(0px);
-       
+@keyframes animation1 {
+    0% {
+        transform: translateY(0px);
     }
+
     80% {
         transform: translateY(-50px);
         transition: transform;
     }
-   100%{
-       transform:translateY(0px);
-       transition:transform ;
-   }
+
+    100% {
+        transform: translateY(0px);
+        transition: transform;
+    }
 }
-@keyframes ani2{
-    0%{
-        width:0%;
+
+@keyframes ani2 {
+    0% {
+        width: 0%;
     }
-    50%{
-        width:100%;
+
+    50% {
+        width: 100%;
     }
-    100%{
-        width:0%;
+
+    100% {
+        width: 0%;
     }
 }
 
@@ -745,21 +760,22 @@
     color: white;
     width: 90%;
     text-align: right;
-    animation:ani_html 3s ease-in-out forwards;
-    animation-delay:0.25s;
-    border-radius:10px;
+    animation: ani_html 3s ease-in-out forwards;
+    animation-delay: 0.25s;
+    border-radius: 10px;
 }
-@keyframes ani_html{
-    0%{
-        width:0%;
 
+@keyframes ani_html {
+    0% {
+        width: 0%;
     }
-    
-    100%{
-        width:90%;
+
+    100% {
+        width: 90%;
     }
 }
-@keyframes ani_css{
+
+@keyframes ani_css {
     0% {
         width: 0%;
     }
@@ -768,6 +784,7 @@
         width: 75%;
     }
 }
+
 @keyframes ani_js {
     0% {
         width: 0%;
@@ -777,6 +794,7 @@
         width: 50%;
     }
 }
+
 @keyframes ani_py {
     0% {
         width: 0%;
@@ -786,6 +804,7 @@
         width: 50%;
     }
 }
+
 .css {
     background-color: rgb(92, 84, 240);
     color: white;
@@ -794,7 +813,6 @@
     border-radius: 10px;
     animation: ani_css 3s ease-in-out forwards;
     animation-delay: 0.25s;
-    
 }
 
 .js {
@@ -805,7 +823,6 @@
     border-radius: 10px;
     animation: ani_js 3s ease-in-out forwards;
     animation-delay: 0.25s;
-    
 }
 
 .py {
@@ -816,7 +833,6 @@
     border-radius: 10px;
     animation: ani_py 3s ease-in-out forwards;
     animation-delay: 0.25s;
-    
 }
 
 .service_container {
@@ -1021,7 +1037,7 @@
     .learnmore_bt {
         border: 3px solid white;
         border-radius: 50px;
-        width: 150px;
+        width: 200px;
         color: white;
         margin: 50px 0px 0px 80px;
         padding: 10px 30px 10px 30px;
@@ -1050,7 +1066,7 @@
 
     .sidepanel {
         float: right;
-        margin: 50px 0px 0px 20px;
+        margin: 250px 0px 0px 20px;
         display: flex;
         gap: 20px;
     }
