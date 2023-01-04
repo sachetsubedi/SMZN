@@ -37,7 +37,7 @@
 
     .learnmore_bt a {
         text-decoration: none;
-        animation: color_ani ease-in-out 5s infinite;
+        color:white;
     }
 
     .learnmore_bt:hover {
