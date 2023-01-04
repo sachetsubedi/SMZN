@@ -16,14 +16,14 @@
     background-color: rgb(47, 17, 82);
     color: white;
 }
-.learn{
-    
+.learn button{
+    color:white;
+    cursor:pointer;
 }
 
 .learnmore_bt {
     border: 3px solid white;
     border-radius: 50px;
-  
     margin: 95px 0px 0px 30px;
     padding: 10px 30px 10px 30px;
     text-align: center;
@@ -32,6 +32,7 @@
     font-family: monospace;
     background-color: transparent;
     animation:border_ani 5s ease-in-out infinite ;
+    
     
 }
 
@@ -46,6 +47,7 @@
         border: 3px solid rgb(116, 74, 232);
         color: white;
         transform: translateX(10px);
+        animation:none;
     }
     @keyframes border_ani{
         0% {
