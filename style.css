@@ -1066,7 +1066,7 @@
 
     .sidepanel {
         float: right;
-        margin: 250px 0px 0px 20px;
+        margin: 10em 1em 0px 20px;
         display: flex;
         gap: 20px;
     }
