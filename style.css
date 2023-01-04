@@ -16,11 +16,14 @@
     background-color: rgb(47, 17, 82);
     color: white;
 }
+.learn{
+    
+}
 
 .learnmore_bt {
     border: 3px solid white;
     border-radius: 50px;
-    color: white;
+  
     margin: 95px 0px 0px 30px;
     padding: 10px 30px 10px 30px;
     text-align: center;
@@ -28,11 +31,13 @@
     width: fit-content;
     font-family: monospace;
     background-color: transparent;
+    animation:border_ani 5s ease-in-out infinite ;
+    
 }
 
     .learnmore_bt a {
         text-decoration: none;
-        color: white;
+        animation: color_ani ease-in-out 5s infinite;
     }
 
     .learnmore_bt:hover {
@@ -42,6 +47,474 @@
         color: white;
         transform: translateX(10px);
     }
+    @keyframes border_ani{
+        0% {
+            border: 3px solid rgb( 45, 235, 35);
+        }
+
+        1% {
+            border: 3px solid rgb( 32, 230, 45);
+        }
+
+        2% {
+            border: 3px solid rgb( 32, 230, 62);
+        }
+
+        4% {
+            border: 3px solid rgb( 32, 230, 78);
+        }
+
+        6% {
+            border: 3px solid rgb( 32, 230, 95);
+        }
+
+        8% {
+            border: 3px solid rgb( 32, 230, 95);
+        }
+
+        9% {
+            border: 3px solid rgb( 32, 230, 141);
+        }
+
+        10% {
+            border: 3px solid rgb( 32, 230, 157);
+        }
+
+        12% {
+            border: 3px solid rgb( 32, 230, 171);
+        }
+
+        14% {
+            border: 3px solid rgb( 32, 230, 187);
+        }
+
+        16% {
+            border: 3px solid rgb( 32, 230, 200);
+        }
+
+        18% {
+            border: 3px solid rgb( 32, 230, 223);
+        }
+
+        20% {
+            border: 3px solid rgb( 32, 217, 230);
+        }
+
+        21% {
+            border: 3px solid rgb( 32, 197, 230);
+        }
+
+        23% {
+            border: 3px solid rgb( 32, 174, 230);
+        }
+
+        25% {
+            border: 3px solid rgb( 32, 161, 230);
+        }
+
+        27% {
+            border: 3px solid rgb( 32, 144, 230);
+        }
+
+        29% {
+            border: 3px solid rgb( 32, 128, 230);
+        }
+
+        30% {
+            border: 3px solid rgb( 32, 111, 230);
+        }
+
+        32% {
+            border: 3px solid rgb( 32, 101, 230);
+        }
+
+        34% {
+            border: 3px solid rgb( 32, 88, 230);
+        }
+
+        36% {
+            border: 3px solid rgb( 32, 65, 230);
+        }
+
+        38% {
+            border: 3px solid rgb( 32, 32, 230);
+        }
+
+        39% {
+            border: 3px solid rgb( 45, 32, 230);
+        }
+
+        40% {
+            border: 3px solid rgb( 88, 32, 230);
+        }
+
+        42% {
+            border: 3px solid rgb( 105, 32, 230);
+        }
+
+        44% {
+            border: 3px solid rgb( 131, 32, 230);
+        }
+
+        46% {
+            border: 3px solid rgb( 131, 32, 230);
+        }
+
+        48% {
+            border: 3px solid rgb( 141, 32, 230);
+        }
+
+        50% {
+            border: 3px solid rgb( 141, 32, 230);
+        }
+
+        52% {
+            border: 3px solid rgb( 131, 32, 230);
+        }
+
+        54% {
+            border: 3px solid rgb( 131, 32, 230);
+        }
+
+        56% {
+            border: 3px solid rgb( 105, 32, 230);
+        }
+
+        58% {
+            border: 3px solid rgb( 88, 32, 230);
+        }
+
+        60% {
+            border: 3px solid rgb( 45, 32, 230);
+        }
+
+        70% {
+            border: 3px solid rgb( 32, 32, 230);
+        }
+
+        72% {
+            border: 3px solid rgb( 32, 65, 230);
+        }
+
+        73% {
+            border: 3px solid rgb( 32, 88, 230);
+        }
+
+        74% {
+            border: 3px solid rgb( 32, 101, 230);
+        }
+
+        76% {
+            border: 3px solid rgb( 32, 111, 230);
+        }
+
+        80% {
+            border: 3px solid rgb( 32, 128, 230);
+        }
+
+        81% {
+            border: 3px solid rgb( 32, 144, 230);
+        }
+
+        84% {
+            border: 3px solid rgb( 32, 161, 230);
+        }
+
+        85% {
+            border: 3px solid rgb( 32, 174, 230);
+        }
+
+        86% {
+            border: 3px solid rgb( 32, 197, 230);
+        }
+
+        87% {
+            border: 3px solid rgb( 32, 217, 230);
+        }
+
+        88% {
+            border: 3px solid rgb( 32, 230, 223);
+        }
+
+        89% {
+            border: 3px solid rgb( 32, 230, 200);
+        }
+
+        92% {
+            border: 3px solid rgb( 32, 230, 187);
+        }
+
+        94% {
+            border: 3px solid rgb( 32, 230, 171);
+        }
+
+        90% {
+            border: 3px solid rgb( 32, 230, 157);
+        }
+
+        92% {
+            border: 3px solid rgb( 32, 230, 141);
+        }
+
+
+        93% {
+            border: 3px solid rgb( 32, 230, 95);
+        }
+
+        94% {
+            border: 3px solid rgb( 32, 230, 95);
+        }
+
+        96% {
+            border: 3px solid rgb( 32, 230, 78);
+        }
+
+        97% {
+            border: 3px solid rgb( 32, 230, 62);
+        }
+
+        99% {
+            border: 3px solid rgb( 32, 230, 45);
+        }
+
+        100% {
+            border: 3px solid rgb( 45, 235, 35);
+        }
+    }
+@keyframes color_ani {
+    0% {
+        color: rgb( 45, 235, 35);
+    }
+
+    1% {
+        color: rgb( 32, 230, 45);
+    }
+
+    2% {
+        color: rgb( 32, 230, 62);
+    }
+
+    4% {
+        color: rgb( 32, 230, 78);
+    }
+
+    6% {
+        color: rgb( 32, 230, 95);
+    }
+
+    8% {
+        color: rgb( 32, 230, 95);
+    }
+
+    9% {
+        color: rgb( 32, 230, 141);
+    }
+
+    10% {
+        color: rgb( 32, 230, 157);
+    }
+
+    12% {
+        color: rgb( 32, 230, 171);
+    }
+
+    14% {
+        color: rgb( 32, 230, 187);
+    }
+
+    16% {
+        color: rgb( 32, 230, 200);
+    }
+
+    18% {
+        color: rgb( 32, 230, 223);
+    }
+
+    20% {
+        color: rgb( 32, 217, 230);
+    }
+
+    21% {
+        color: rgb( 32, 197, 230);
+    }
+
+    23% {
+        color: rgb( 32, 174, 230);
+    }
+
+    25% {
+        color: rgb( 32, 161, 230);
+    }
+
+    27% {
+        color: rgb( 32, 144, 230);
+    }
+
+    29% {
+        color: rgb( 32, 128, 230);
+    }
+
+    30% {
+        color: rgb( 32, 111, 230);
+    }
+
+    32% {
+        color: rgb( 32, 101, 230);
+    }
+
+    34% {
+        color: rgb( 32, 88, 230);
+    }
+
+    36% {
+        color: rgb( 32, 65, 230);
+    }
+
+    38% {
+        color: rgb( 32, 32, 230);
+    }
+
+    39% {
+        color: rgb( 45, 32, 230);
+    }
+
+    40% {
+        color: rgb( 88, 32, 230);
+    }
+
+    42% {
+        color: rgb( 105, 32, 230);
+    }
+
+    44% {
+        color: rgb( 131, 32, 230);
+    }
+
+    46% {
+        color: rgb( 131, 32, 230);
+    }
+
+    48% {
+        color: rgb( 141, 32, 230);
+    }
+
+    50% {
+        color: rgb( 141, 32, 230);
+    }
+
+    52% {
+        color: rgb( 131, 32, 230);
+    }
+
+    54% {
+        color: rgb( 131, 32, 230);
+    }
+
+    56% {
+        color: rgb( 105, 32, 230);
+    }
+
+    58% {
+        color: rgb( 88, 32, 230);
+    }
+
+    60% {
+        color: rgb( 45, 32, 230);
+    }
+
+    70% {
+        color: rgb( 32, 32, 230);
+    }
+
+    72% {
+        color: rgb( 32, 65, 230);
+    }
+
+    73% {
+        color: rgb( 32, 88, 230);
+    }
+
+    74% {
+        color: rgb( 32, 101, 230);
+    }
+
+    76% {
+        color: rgb( 32, 111, 230);
+    }
+
+    80% {
+        color: rgb( 32, 128, 230);
+    }
+
+    81% {
+        color: rgb( 32, 144, 230);
+    }
+
+    84% {
+        color: rgb( 32, 161, 230);
+    }
+
+    85% {
+        color: rgb( 32, 174, 230);
+    }
+
+    86% {
+        color: rgb( 32, 197, 230);
+    }
+
+    87% {
+        color: rgb( 32, 217, 230);
+    }
+
+    88% {
+        color: rgb( 32, 230, 223);
+    }
+
+    89% {
+        color: rgb( 32, 230, 200);
+    }
+
+    92% {
+        color: rgb( 32, 230, 187);
+    }
+
+    94% {
+        color: rgb( 32, 230, 171);
+    }
+
+    90% {
+        color: rgb( 32, 230, 157);
+    }
+
+    92% {
+        color: rgb( 32, 230, 141);
+    }
+
+
+    93% {
+        color: rgb( 32, 230, 95);
+    }
+
+    94% {
+        color: rgb( 32, 230, 95);
+    }
+
+    96% {
+        color: rgb( 32, 230, 78);
+    }
+
+    97% {
+        color: rgb( 32, 230, 62);
+    }
+
+    99% {
+        color: rgb( 32, 230, 45);
+    }
+
+    100% {
+        color: rgb( 45, 235, 35);
+    }
+}
 
 
 .name {
